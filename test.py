@@ -1,0 +1,37 @@
+import sys
+import numpy
+teamNames = []
+teamNames.append("Angels")
+teamNames.append("Astros")
+teamNames.append("Athletics")
+teamNames.append("Jays")
+teamNames.append("Braves")
+teamNames.append("Brewers")
+teamNames.append("Cardinals")
+teamNames.append("Cubs")
+teamNames.append("Diamondbacks")
+teamNames.append("Dodgers")
+teamNames.append("Giants")
+teamNames.append("Indians")
+teamNames.append("Mariners")
+teamNames.append("Marlins")
+teamNames.append("Mets")
+teamNames.append("Nationals")
+teamNames.append("Orioles")
+teamNames.append("Padres")
+teamNames.append("Phillies")
+teamNames.append("Pirates")
+teamNames.append("Rangers")
+teamNames.append("Rays")
+teamNames.append("Red_Sox")
+teamNames.append("Reds")
+teamNames.append("Rockies")
+teamNames.append("Royals")
+teamNames.append("Tigers")
+teamNames.append("Twins")
+teamNames.append("White_Sox")
+teamNames.append("Yankees")
+
+x = numpy.zeros((2, 3, 4))
+
+print x[1][1][1]
